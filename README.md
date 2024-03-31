@@ -1,65 +1,41 @@
-# odoo-widgets README
+# Odoo v17 Widgets Snippets para Visual Studio Code
 
-This is the README for your extension "odoo-widgets". After writing up a brief description, we recommend including the following sections.
+Esta extensión de Visual Studio Code proporciona una colección de snippets para facilitar el desarrollo de módulos en Odoo v17, enfocándose en los widgets más comunes y útiles. Con estos snippets, los desarrolladores pueden agilizar la creación de interfaces de usuario y mejorar su productividad.
 
-## Features
+## Características
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Amplia Colección de Snippets**: Con más de 30 snippets específicos para Odoo v17, esta extensión cubre una vasta gama de widgets, incluyendo, pero no limitado a:
+  - Widgets de interfaz de usuario como `progressbar`, `gauge`, y `priority`.
+  - Elementos de control de formulario, visualizaciones de datos, y más.
+- **Snippets Optimizados y Actualizados**: Cada snippet ha sido cuidadosamente diseñado para ser conciso y seguir las mejores prácticas de desarrollo de Odoo, asegurando una alta calidad y eficiencia en tu código.
+- **Fácil de Usar**: Los snippets están organizados con prefijos intuitivos y descriptivos, permitiendo una rápida inserción en tu código. Simplemente comienza a escribir el prefijo y selecciona el snippet deseado de las sugerencias.
+- **Productividad Mejorada**: Estos snippets reducen significativamente el tiempo de desarrollo y la posibilidad de errores, permitiéndote concentrarte en la lógica y funcionalidad de tus módulos.
 
-For example if there is an image subfolder under your extension project workspace:
+## Instalación
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Abre Visual Studio Code.
+2. Navega a **Extensions** buscando `Ctrl+Shift+X` (Windows/Linux) o `Cmd+Shift+X` (Mac).
+3. Busca `Odoo widgets`.
+4. Haz clic en **Install**.
+5. Una vez instalada, la extensión está lista para usarse.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Uso
 
-## Requirements
+Para usar un snippet, comienza a escribir el prefijo del snippet en tu archivo de código y selecciona el snippet deseado de las sugerencias que aparecen. Por ejemplo:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Escribe `widg-monetary` para insertar un widget en un campo float y que aparezca el simbolo de la moneda.
+- Usa `widg-statusbar` para insertar un widget de estado de barra en la parte superior de un formulario.
 
-## Extension Settings
+Los snippets están diseñados para ser descriptivos y fáciles de recordar, pero puedes consultar la lista completa de snippets disponibles y sus descripciones en la sección **Features** de la página de la extensión en el Marketplace de Visual Studio Code.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Contribuir
 
-For example:
+Si tienes ideas para nuevos snippets o mejoras, ¡no dudes en contribuir! Puedes hacerlo clonando el repositorio de la extensión, haciendo tus cambios y enviando un pull request. También agradecemos los informes de errores y las sugerencias a través del sistema de issues de GitHub.
 
-This extension contributes the following settings:
+## Licencia
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Esta extensión se distribuye bajo la licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ---
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Disfruta de los snippets para Odoo v17 y acelera tu desarrollo!**
