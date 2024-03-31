@@ -3,6 +3,7 @@
   "displayName": "Odoo widgets",
   "description": "All Widgets for Odoo v17",
   "version": "0.0.1",
+  "publisher": "JoseAguilar99",
   "engines": {
     "vscode": "^1.87.0"
   },
