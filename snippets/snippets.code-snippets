@@ -1,1 +1,241 @@
-{}
+{
+    "widget progressbar": {
+        "prefix": "widg-progressbar",
+        "body": [
+            "widget='progressbar'"
+        ]
+    },
+    "widget gauge": {
+        "prefix": "widg-gauge",
+        "body": [
+            "widget='gauge'"
+        ]
+    },
+    "widget priority": {
+        "prefix": "widg-priority",
+        "body": [
+            "widget='priority'"
+        ]
+    },
+    "widget boolean_favorite": {
+        "prefix": "widg-boolean_favorite",
+        "body": [
+            "widget='boolean_favorite'"
+        ]
+    },
+    "widget kanban_activity": {
+        "prefix": "widg-kanban_activity",
+        "body": [
+            "widget='kanban_activity'"
+        ]
+    },
+    "widget monetary": {
+        "prefix": "widg-monetary",
+        "body": [
+            "widget='monetary'"
+        ]
+    },
+    "widget handle": {
+        "prefix": "widg-handle",
+        "body": [
+            "widget='handle'"
+        ]
+    },
+    "widget statinfo": {
+        "prefix": "widg-statinfo",
+        "body": [
+            "widget='statinfo'"
+        ]
+    },
+    "widget radio": {
+        "prefix": "widg-radio",
+        "body": [
+            "widget='radio'"
+        ]
+    },
+    "widget boolean_button": {
+        "prefix": "widg-boolean_button",
+        "body": [
+            "widget='boolean_button'"
+        ]
+    },
+    "widget email": {
+        "prefix": "widg-email",
+        "body": [
+            "widget='email'"
+        ]
+    },
+    "widget phone": {
+        "prefix": "widg-phone",
+        "body": [
+            "widget='phone'"
+        ]
+    },
+    "widget char": {
+        "prefix": "widg-char",
+        "body": [
+            "widget='char'"
+        ]
+    },
+    "widget url": {
+        "prefix": "widg-url",
+        "body": [
+            "widget='url'"
+        ]
+    },
+    "widget state_selection": {
+        "prefix": "widg-state_selection",
+        "body": [
+            "widget='state_selection'"
+        ]
+    },
+    "widget statusbar": {
+        "prefix": "widg-statusbar",
+        "body": [
+            "widget='statusbar'"
+        ]
+    },
+    "widget many2many_tags": {
+        "prefix": "widg-many2many_tags",
+        "body": [
+            "widget='many2many_tags'"
+        ]
+    },
+    "widget float_time": {
+        "prefix": "widg-float_time",
+        "body": [
+            "widget='float_time'"
+        ]
+    },
+    "widget date": {
+        "prefix": "widg-date",
+        "body": [
+            "widget='date'"
+        ]
+    },
+    "widget domain": {
+        "prefix": "widg-domain",
+        "body": [
+            "widget='domain'"
+        ]
+    },
+    "widget html_frame": {
+        "prefix": "widg-html_frame",
+        "body": [
+            "widget='html_frame'"
+        ]
+    },
+    "widget attachment_image": {
+        "prefix": "widg-attachment_image",
+        "body": [
+            "widget='attachment_image'"
+        ]
+    },
+    "widget kanban_label_selection": {
+        "prefix": "widg-kanban_label_selection",
+        "body": [
+            "widget='kanban_label_selection'"
+        ]
+    },
+    "widget label_selection": {
+        "prefix": "widg-label_selection",
+        "body": [
+            "widget='label_selection'"
+        ]
+    },
+    "widget pdf_viewer": {
+        "prefix": "widg-pdf_viewer",
+        "body": [
+            "widget='pdf_viewer'"
+        ]
+    },
+    "widget mrp_time_counter": {
+        "prefix": "widg-mrp_time_counter",
+        "body": [
+            "widget='mrp_time_counter'"
+        ]
+    },
+    "widget bullet_state": {
+        "prefix": "widg-bullet_state",
+        "body": [
+            "widget='bullet_state'"
+        ]
+    },
+    "widget pad": {
+        "prefix": "widg-pad",
+        "body": [
+            "widget='pad'"
+        ]
+    }
+    ,
+    "widget sms_widget": {
+        "prefix": "widg-sms_widget",
+        "body": [
+            "widget='sms_widget'"
+        ]
+    },
+    "widget report_layout": {
+        "prefix": "widg-report_layout",
+        "body": [
+            "widget='report_layout'"
+        ]
+    },
+    "widget res_partner_many2one": {
+        "prefix": "widg-res_partner_many2one",
+        "body": [
+            "widget='res_partner_many2one'"
+        ]
+    },
+    "widget dashboard_graph": {
+        "prefix": "widg-dashboard_graph",
+        "body": [
+            "widget='dashboard_graph'"
+        ]
+    },
+    "widget website_button": {
+        "prefix": "widg-website_button",
+        "body": [
+            "widget='website_button'"
+        ]
+    },
+    "widget section_and_note_one2many": {
+        "prefix": "widg-section_and_note_one2many",
+        "body": [
+            "widget='section_and_note_one2many'"
+        ]
+    },
+    "widget payments_widget": {
+        "prefix": "widg-payments_widget",
+        "body": [
+            "widget='payments_widget'"
+        ]
+    },
+    "widget many2many_checkboxes": {
+        "prefix": "widg-many2many_checkboxes",
+        "body": [
+            "widget='many2many_checkboxes'"
+        ]
+    },
+    "widget selection": {
+        "prefix": "widg-selection",
+        "body": [
+            "widget='selection'"
+        ]
+    },
+    "widget image": {
+        "prefix": "widg-image",
+        "body": [
+            "widget='image'"
+        ]
+    },
+    "chatter": {
+        "prefix": "chatter-odoo",
+        "body": [
+            "<div class='oe_chatter'>",
+            "   <field name='message_follower_ids' widget='mail_followers' groups='base.group_user'/>",
+            "   <field name='activity_ids' widget='mail_activity'/>",
+            "   <field name='message_ids' widget='mail_thread'/>",
+            "</div>"
+        ]
+    }
+}
